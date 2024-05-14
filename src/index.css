@@ -14,48 +14,118 @@ body {
   justify-content: center;
 }
 
+
 #rating-component {
-  width: 20rem;
-  height: 20rem;
+  max-width: 300px;
   background-color: #1f2630;
-  border-radius: 1.8rem;
+  border-radius: 1rem;
   display: flex;
   flex-direction: column;
+  gap: 22px;;
   align-items: start;
-  padding: 2rem;
+  padding: 25px;
+}
+
+.image-container {
+  background-color: #24313c;
+  padding: 0.8rem;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 img {
-  background-color: #24313c;
-  padding: 0.5rem;
-  aspect-ratio: 1 / 1;
-  border-radius: 50%;
+  width: 0.8rem;
+}
+
+h3 {
+  font-size: medium;
+}
+
+p {
+  font-size: small;
+  color: #7e8691;;
 }
 
 .rating-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 2rem;
+  justify-content: center;
+  gap: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
 }
 
 .rating-container * {
+  border: transparent;
   background-color: #24313c;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  color: #7e8691;
+  font-size: small;
+  font-weight: bold;
 }
 
 .rating-container *:hover {
   cursor: pointer;
-  background-color: #fc7613;
+  background-color: #7b8898;
+  color: white;
 }
 
-button {
+.rating-container *:focus {
   background-color: #fc7613;
+  color: white;
+}
+
+.submit-button {
+  background-color: #fc7613;
+  color: white;
   width: 100%;
   border: transparent;
-  padding: 0.5rem 2rem;
   border-radius: 2rem;
+  width: 100%;
+  height: 2.5rem;
+  font-weight: bold;
 }
 
-button:hover {
+.submit-button:hover {
   cursor: pointer;
+  background-color: white;
+  color: #fc7613;
+}
+
+/* Thanks Component */
+.illustration {
+  width: 50%;
+  margin: auto;
+}
+
+#thanks-component {
+  max-width: 300px;
+  background-color: #1f2630;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;;
+  align-items: center;
+  text-align: center;
+  padding: 25px;
+}
+
+.rating-label {
+  background-color: #272e38;
+  color: #fc7613;
+  padding: 0.5rem  0.8rem;
+  border-radius: 1rem;
 }
