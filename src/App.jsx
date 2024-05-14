@@ -6,15 +6,12 @@ function App() {
 	// Render State
 	const [render, setRender] = useState(true);
 
-	// Selected Rating
-	const [selected, setSelected] = useState(false);
-
-	// onSubmit ? pass to next section
-	const submitRating = () => {};
+	// Rating State
+	const [rating, setRating] = useState(undefined);
 
 	return (
 		<>
-			{render ? <Rating render={render} setRender={setRender} /> : <Thanks />}
+			{render ? <Rating setRating={setRating} rating={rating}  render={render} setRender={setRender} /> : <Thanks rating={rating} />}
 		</>
 	);
 }

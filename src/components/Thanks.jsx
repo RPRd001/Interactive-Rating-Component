@@ -1,7 +1,6 @@
 import illustrationThanks from "../assets/images/illustration-thank-you.svg"
 
-const Thanks = () => {
-  const rating = 5
+const Thanks = ({ rating }) => {
 
   return (
     <div id="thanks-component">
