@@ -8,11 +8,9 @@ const Rating = ({ setRender }) => {
 			<div className="image-container">
 				<img src={iconStar} alt="A star icon" />
 			</div>
-			<h2>How did we do?</h2>
+			<h3>How did we do?</h3>
 			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-				deleniti nam necessitatibus, dolorum est voluptatum temporibus modi
-				animi quae beatae?
+				Please let us know how we did with your support request. All feedback is appreaciated to help us improve our offering!
 			</p>
 			<form>
 				<div className="rating-container">
