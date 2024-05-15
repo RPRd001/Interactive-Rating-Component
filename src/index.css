@@ -22,7 +22,7 @@ body {
 	flex-direction: column;
 	gap: 22px;
 	align-items: start;
-	padding: 25px;
+	padding: 1rem;
 }
 
 .image-container {
@@ -119,7 +119,7 @@ form {
 	gap: 22px;
 	align-items: center;
 	text-align: center;
-	padding: 25px;
+	padding: 1rem;
 }
 
 .rating-label {
@@ -133,5 +133,6 @@ form {
 	#thanks-component,
 	#rating-component {
 		max-width: 320px;
+		padding: 25px;
 	}
 }
