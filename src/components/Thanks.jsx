@@ -12,7 +12,7 @@ const Thanks = ({ rating }) => {
           Thank you!
         </h3>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa minus voluptatibus obcaecati corrupti iusto minima similique eum quod ipsum iure!
+          We appreciate you taking the time to give a rating. If you ever need more support, don&apos;t hesitate to get in touch! 
         </p>
     </div>
   )
